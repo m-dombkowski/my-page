@@ -1,0 +1,136 @@
+/* --------------- NAVIGATION -------------------- */
+
+.header {
+  font-size: 1.8rem;
+  width: 100%;
+
+  padding: 1.2rem;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  /* height: 4rem; */
+}
+
+.social-links {
+  display: flex;
+  gap: 3.4rem;
+  list-style: none;
+}
+
+.github,
+.youtube,
+.facebook,
+.insta {
+  transition: all 0.3s;
+}
+
+.github:hover {
+  color: #000;
+}
+
+.youtube:hover {
+  color: #ff0000;
+}
+
+.facebook:hover {
+  color: #4267b2;
+}
+
+.insta:hover {
+  color: #c13584;
+}
+
+.social-link {
+  color: inherit;
+}
+
+.ion-icon {
+  height: 2.6rem;
+  width: 2.6rem;
+}
+
+.navigation-list {
+  gap: 3.4rem;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.navigation-list a:link,
+.navigation-list a:visited {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  transition: all 0.3s;
+}
+
+.navigation-list a:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #3498db;
+  width: 0;
+  position: absolute;
+  left: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.navigation-list a:hover:after {
+  width: 100%;
+}
+
+/* --------------- HERO / ABOUT -------------------- */
+
+.hero-section {
+  margin-top: 8rem;
+  height: 100vh;
+}
+
+.hero {
+  max-width: 120rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.navigation {
+  padding: 2rem 4rem 4rem 4rem;
+  height: 4rem;
+  /* display: flex; */
+}
+
+.hero-photo-box {
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.heading-h2 {
+  font-size: 3.8rem;
+}
+
+.hero-span {
+  font-size: 2.4rem;
+}
+
+.hero-text-box {
+  align-self: center;
+}
+
+.hero-p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about {
+  font-size: 1.6rem;
+}
