@@ -17,43 +17,6 @@
   <body>
     <header class="header">
       <nav class="navigation">
-        <ul class="social-links">
-          <li>
-            <a
-              class="social-link"
-              target="_blank"
-              href="https://github.com/m-dombkowski"
-              ><ion-icon class="ion-icon github" name="logo-github"></ion-icon
-            ></a>
-          </li>
-          <li>
-            <a
-              class="social-link"
-              target="_blank"
-              href="https://www.youtube.com/channel/UC2YyqF5ix9HlTdpXGekDETQ"
-              ><ion-icon class="ion-icon youtube" name="logo-youtube"></ion-icon
-            ></a>
-          </li>
-          <li>
-            <a
-              class="social-link"
-              target="_blank"
-              href="https://www.facebook.com/mateusz.dombkowski.3"
-              ><ion-icon
-                class="ion-icon facebook"
-                name="logo-facebook"
-              ></ion-icon
-            ></a>
-          </li>
-          <li>
-            <a
-              class="social-link"
-              target="_blank"
-              href="https://www.instagram.com/mateusz.dombkowski/"
-              ><ion-icon class="ion-icon insta" name="logo-instagram"></ion-icon
-            ></a>
-          </li>
-        </ul>
         <ul class="navigation-list">
           <li><a class="nav-element" href="#about">About</a></li>
           <li><a class="nav-element" href="#">My skills</a></li>
@@ -64,14 +27,14 @@
     </header>
     <main>
       <section class="hero-section" id="about">
-        <div class="hero">
+        <div class="hero container">
           <div class="hero-photo-box">
             <picture>
               <source srcset="Zdjecia/hero-webp.webp" type="image/webp" />
-              <source srcset="hero.jpg" type="image/jpg" />
+              <source srcset="Zdjecia/hero.jpg" type="image/jpg" />
 
               <img
-                src="img/hero.jpg"
+                src="Zdjecia/hero.jpg"
                 class="hero-img"
                 alt="Me in front of pc"
               />
@@ -79,14 +42,98 @@
           </div>
           <div class="hero-text-box">
             <span class="hero-span">Hi, I'm Mateusz.</span>
-            <h2 class="heading-h2">Aspiring Frontend Dev,</h2>
+            <h2 class="heading-h2 no-margin-bottom">Aspiring Frontend Dev,</h2>
             <p class="hero-p">Tech enthusiast and coffee lover.</p>
             <p class="about">
               I'm a self taught dev who started his frontend journey in June
-              2021. I was always kinda into tech and computers, so I finally
-              decided to give it a shot and switch my carrer, that's how I got
-              here.
+              2021. <br />
+              I knew that changing carrer won't be easy but </br> I was always into
+              tech and computers,<br />
+              so I finally decided to give it a shot and that's how i got here.<br />
             </p>
+            <ul class="social-links">
+              <li>
+                <a
+                  class="social-link"
+                  target="_blank"
+                  href="https://github.com/m-dombkowski"
+                  ><ion-icon
+                    class="ion-icon github"
+                    name="logo-github"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UC2YyqF5ix9HlTdpXGekDETQ"
+                  ><ion-icon
+                    class="ion-icon youtube"
+                    name="logo-youtube"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  target="_blank"
+                  href="https://www.facebook.com/mateusz.dombkowski.3"
+                  ><ion-icon
+                    class="ion-icon facebook"
+                    name="logo-facebook"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  target="_blank"
+                  href="https://www.instagram.com/mateusz.dombkowski/"
+                  ><ion-icon
+                    class="ion-icon insta"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class=" section-skills" id="skills">
+        
+        <div class="container grid grid--2-cols ">
+          
+          <div class="skill-tabs">
+            <h2 class="heading-h3">My Skills</h2>
+            <div class="skills-flex"> 
+              <span class="skills-element">HTML 5</span>
+              <span class="skills-element">CSS</span>
+              <span class="skills-element">CSS Grid</span>
+              <span class="skills-element">Responsive Web Design</span>
+              <span class="skills-element">Flexbox</span>
+              <span class="skills-element">Javascript ES6</span>
+              <span class="skills-element">Git</span>
+            </div>
+            <h3 class="heading-h3">What I am currently learning</h3>
+            <div class="skills-flex">
+              <span class="skills-element">React</span>
+              <span class="skills-element">Redux</span> 
+            </div>
+          </div>  
+
+          
+          <div class="skill-img-box">
+            <picture>
+              <source srcset="Zdjecia/skill-webp.webp" type="image/webp" />
+              <source srcset="Zdjecia/skill.jpg" type="image/jpg" />
+
+              <img
+                src="Zdjecia/skill.jpg"
+                class="hero-img"
+                alt="Me in front of pc"
+              />
+            </picture>
           </div>
         </div>
       </section>

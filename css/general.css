@@ -21,7 +21,6 @@ body {
 }
 
 .container {
-  padding: 0 3.2rem;
   max-width: 120rem;
   margin: 0 auto;
 }
@@ -34,4 +33,18 @@ body {
 
 .grid--2-cols {
   grid-template-columns: 1fr 1fr;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.heading-h2 {
+  font-size: 3.8rem;
+  margin-bottom: 2rem;
+}
+
+.heading-h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
