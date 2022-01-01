@@ -16,14 +16,20 @@
   </head>
   <body>
     <header class="header">
+      <div class="nav-wrapper">
       <nav class="navigation">
         <ul class="navigation-list">
           <li><a class="nav-element" href="#about">About</a></li>
-          <li><a class="nav-element" href="#">My skills</a></li>
-          <li><a class="nav-element" href="#">Portfolio</a></li>
-          <li><a class="nav-element" href="#">Contact</a></li>
+          <li><a class="nav-element" href="#skills">My skills</a></li>
+          <li><a class="nav-element" href="#project">My projects</a></li>
+          <li><a class="nav-element" href="#contact">Contact</a></li>
         </ul>
       </nav>
+    </div>
+      <!-- <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button> -->
     </header>
     <main>
       <section class="hero-section" id="about">
@@ -45,11 +51,7 @@
             <h2 class="heading-h2 no-margin-bottom">Aspiring Frontend Dev,</h2>
             <p class="hero-p">Tech enthusiast and coffee lover.</p>
             <p class="about">
-              I'm a self taught dev who started his frontend journey in June
-              2021. <br />
-              I knew that changing carrer won't be easy but </br> I was always into
-              tech and computers,<br />
-              so I finally decided to give it a shoot and that's how i got here.<br />
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio libero suscipit modi quasi saepe nobis adipisci quisquam blanditiis at in hic omnis commodi atque soluta temporibus culpa, nulla quis incidunt.
             </p>
             <ul class="social-links">
               <li>
@@ -138,7 +140,7 @@
         </div>
       </section>
 
-      <section class="section-portfolio">
+      <section class="section-projects" id="project">
         
         <div class="container ">
           <h3 class="heading-h3">My projects</h3>
@@ -154,7 +156,7 @@
                 />
               </picture>
               <h4 class="heading-h4">Twitch (Test123)</h4>
-              <p class="project-short-description">Streaming platoform for people to watch other people streaming video games, irl etc.</p>
+              <p class="project-short-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, non perferendis sit a minima officia eaque optio modi, ipsa nostrum cumque ad vel praesentium nam sint labore architecto nisi dignissimos?</p>
               <a href="#project-test-1" class="view-project">View project</a>
             </div>
           </div>
@@ -168,7 +170,7 @@
               />
             </picture>
             <h4 class="heading-h4">Twitch (Test123)</h4>
-            <p class="project-short-description">Streaming platoform for people to watch other people streaming video games, irl etc.</p>
+            <p class="project-short-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus iure dolore. Accusamus enim eligendi quibusdam itaque reprehenderit vero ipsa ipsum eaque quas impedit, veritatis tenetur. Assumenda quo laudantium voluptate..</p>
             <a href="#project-test-1" class="view-project">View project</a>
           </div></div>
           <div class="project test3">
@@ -182,7 +184,7 @@
                 />
               </picture>
               <h4 class="heading-h4">Twitch (Test123)</h4>
-              <p class="project-short-description">Streaming platoform for people to watch other people streaming video games, irl etc.</p>
+              <p class="project-short-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae dignissimos eveniet, iusto deleniti, distinctio voluptatum reiciendis amet sed magnam quas ipsam molestias repellendus fuga numquam mollitia doloribus eligendi cum dolores..</p>
               <a href="#project-test-1" class="view-project">View project</a>
             </div>
           </div>
@@ -197,13 +199,116 @@
                 />
               </picture>
               <h4 class="heading-h4">Twitch (Test123)</h4>
-              <p class="project-short-description">Streaming platoform for people to watch other people streaming video games, irl etc.</p>
+              <p class="project-short-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, perspiciatis harum. Maiores sint asperiores voluptatibus unde animi assumenda ea tenetur reiciendis laborum consequuntur fugiat eveniet, repudiandae voluptatem laboriosam, commodi aut..</p>
               <a href="#project-test-1" class="view-project">View project</a>
             </div>
           </div>
         </div>
       </div>
       </section>
+
+      <section class="section-contact" id="contact">
+        <div class="container">
+          <h3 class="heading-h3 center">Contact</h3>
+          <form class="contact-form" action="#">
+            <div class="name-container ">
+              <label for="full-name">Name</label>
+              <input
+              class="row"
+                id="full-name"
+                type="text"               
+                required
+              />
+            </div>
+            <div class="email-container ">
+              <label for="email">E-mail</label>
+              <input
+              class="row"
+                id="email"
+                type="email"              
+                required
+              />
+            </div>
+            <div class="message-container ">
+              <label for="message">Message</label>
+              <textarea
+                rows="8"
+                cols="1"
+                id="message"
+                type="text" 
+                class="big"
+                required>
+              </textarea>
+            </div>
+          </br>
+          <input type="submit" class="send" value="Send">
+          </form> 
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container grid grid--2-cols">
+          <div class="footer-text-box">
+            <h3 class="heading-h3">Got idea?</h3>
+            <p class="footer-text">Feel free to contact me on any social media or via email!</p>
+            <p class="footer-email">
+              <a class="footer-link" href="mailto:dombkowskimateusz@gmail.com"
+              >dombkowskimateusz@gmail.com</a
+            >
+            </p>
+            <p class="copy">Made by your mum &hearts; in 2022 </p>
+          </div>
+          <div class="fotter-contact">
+            
+            <ul class="social-links social-links-footer">
+              <li>
+                <a
+                  class="social-link"
+                  target="_blank"
+                  href="https://github.com/m-dombkowski"
+                  ><ion-icon
+                    class="ion-icon github"
+                    name="logo-github"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UC2YyqF5ix9HlTdpXGekDETQ"
+                  ><ion-icon
+                    class="ion-icon youtube"
+                    name="logo-youtube"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  target="_blank"
+                  href="https://www.facebook.com/mateusz.dombkowski.3"
+                  ><ion-icon
+                    class="ion-icon facebook"
+                    name="logo-facebook"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="social-link"
+                  target="_blank"
+                  href="https://www.instagram.com/mateusz.dombkowski/"
+                  ><ion-icon
+                    class="ion-icon insta"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+            </ul>
+          
+          </div>
+        </div>
+      </footer>
     </main>
     <script
       type="module"
@@ -213,5 +318,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

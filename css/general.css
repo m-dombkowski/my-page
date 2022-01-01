@@ -8,6 +8,7 @@ html {
   /* So 1 rem = 10px */
   font-size: 62.5%;
   overflow-x: hidden;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -19,6 +20,8 @@ body {
   overflow-x: hidden;
   line-height: 1.5;
 }
+
+/* ---------- REUSABLE ------------- */
 
 .container {
   max-width: 120rem;
@@ -51,4 +54,8 @@ body {
 .heading-h4 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
+}
+
+.center {
+  text-align: center;
 }
