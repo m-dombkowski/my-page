@@ -149,7 +149,7 @@
   border: none;
   border-radius: 5px;
   transition: all 0.5s;
-  cursor: pointer;
+  cursor: default;
 }
 
 .skills-element:hover {
@@ -161,4 +161,59 @@
   gap: 1.6rem;
   flex-wrap: wrap;
   margin-bottom: 4rem;
+}
+
+.skill-img-box {
+  width: 100%;
+}
+
+/* ---------- PORTFOLIO -------------- */
+
+.project-box {
+  padding: 3.2rem;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.07);
+}
+
+.project-pic {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.project-short-description {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 2.6rem;
+}
+
+.view-project {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+  background-color: #e0e0e0;
+  padding: 0.8rem 1.6rem;
+  border-radius: 5px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.view-project::after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 1px;
+  right: -20px;
+  transition: all 0.5s;
+  font-size: 20px;
+}
+
+.view-project:hover {
+  padding-right: 22px;
+  padding-left: 10px;
+  background-color: #f0f0f0;
+}
+
+.view-project:hover:after {
+  opacity: 1;
+  right: 8px;
 }
