@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 900px) {
+  html {
+    font-size: 62.5%;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     gap: 5.2rem;

@@ -21,8 +21,8 @@
   /* color: #03dac7; */
 }
 
-.dark .navigation-list a:hover,
-.dark .navigation-list a:active {
+.dark .navigation-list a:link,
+.dark .navigation-list a:visited {
   color: #ecf0f1;
 }
 
@@ -126,7 +126,7 @@
   display: inline-block;
   text-decoration: none;
   position: relative;
-  color: inherit;
+  color: #333;
   transition: all 0.5s ease;
 }
 
