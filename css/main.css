@@ -276,10 +276,16 @@
 .social-links {
   display: flex;
   gap: 3.4rem;
+  align-items: center;
+  /* justify-content: center; */
   list-style: none;
 }
 
 ul li a {
+  display: flex;
+  /* justify-content: center; */
+  cursor: pointer;
+  align-items: center;
   transition: all 0.5s ease;
 }
 
@@ -308,11 +314,17 @@ ul li a {
 
 .social-link {
   color: inherit;
+  height: inherit;
 }
 
 .ion-icon {
   height: 2.6rem;
   width: 2.6rem;
+  pointer-events: visible;
+}
+
+.test {
+  height: 100%;
 }
 
 /* ---------- SKILLS -------- */
