@@ -7,7 +7,7 @@
 html {
   /* So 1 rem = 10px */
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* scroll-behavior: smooth; */
 }
 
@@ -19,6 +19,7 @@ body {
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
   line-height: 1.5;
+  transition: all 0.5s;
 }
 
 /* ---------- REUSABLE ------------- */
