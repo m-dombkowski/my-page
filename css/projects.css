@@ -1,0 +1,217 @@
+/* ------------------- DARK/LIGHT -------------------- */
+
+.dark .tech-used {
+  color: #ecf0f1;
+  background-color: #bb86fc;
+}
+
+.dark .tech-used:hover {
+  background-color: #3700b3;
+}
+
+.dark .repo-link:link,
+.dark .repo-link:visited,
+.dark .page-link:link,
+.dark .page-link:visited {
+  color: #ecf0f1;
+}
+
+.dark .repo-link:after,
+.dark .page-link::after {
+  border-bottom: 2px solid #bb86fc;
+}
+
+.dark .go-back-anchor:link,
+.dark .go-back-anchor:visited {
+  color: #e0e0e0;
+}
+
+.dark .go-back-anchor:hover,
+.dark .go-back-anchor:active {
+  color: #bb86fc;
+  border: 2px solid #bb86fc;
+}
+
+.dark .go-back-anchor::after {
+  color: #e0e0e0;
+}
+
+/* ---------------------- REST ------------------------*/
+
+.btn-light-dark-mode {
+  margin-right: auto;
+}
+
+.go-back-to-main {
+  position: absolute;
+  top: 7px;
+  right: 40px;
+
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.go-back-anchor:link,
+.go-back-anchor:visited {
+  font-size: 3.6rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding-bottom: 0.6rem;
+  padding-right: 0.8rem;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.go-back-anchor:hover,
+.go-back-anchor:active {
+  padding-left: 20rem;
+  border: 2px solid #000;
+}
+
+.go-back-anchor::after {
+  position: absolute;
+  content: "Go back to main page";
+  font-size: 1.8rem;
+  top: 13px;
+  left: -220px;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.go-back-anchor:hover:after {
+  opacity: 1;
+  left: 10px;
+}
+
+section {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.title-container {
+  margin: 12rem 0;
+}
+
+.project-title {
+  font-size: 4.8rem;
+  margin-bottom: 2rem;
+}
+
+.project-short-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.app-section {
+  margin-bottom: 12rem;
+}
+
+.app-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.5fr 1fr;
+  /* gap: 2rem; */
+}
+
+.tech-title {
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.tech-used-list {
+  list-style: none;
+}
+
+.tech-used {
+  margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+  color: #777;
+  display: inline-block;
+  padding: 0.8rem;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  cursor: default;
+  box-shadow: 0 0.2rem 1rem 0 rgba(0, 0, 0, 0.08);
+  margin-right: 2rem;
+}
+
+.tech-used:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-4px);
+}
+
+.link-title {
+  margin: 4rem 0 1.4rem 0;
+  font-size: 2rem;
+}
+
+.repo-link:link,
+.repo-link:visited,
+.page-link:link,
+.page-link:visited {
+  position: relative;
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: inline-block;
+  color: #777;
+  margin-bottom: 4rem;
+  transition: all 0.5s ease;
+}
+
+.repo-link:hover,
+.repo-link:active,
+.page-link:hover,
+.page-link:active {
+  color: #3700b3;
+}
+
+.repo-link:after,
+.page-link:after {
+  content: "";
+  display: inline-block;
+  border-bottom: 2px solid #3700b3;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  margin-top: 2rem;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.repo-link:hover:after,
+.page-link:hover::after {
+  width: 100%;
+}
+
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.project-pic {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0.4rem 0.4rem 1.2rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.summary-title {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.summary-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.summary {
+  margin-bottom: 12rem;
+}

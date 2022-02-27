@@ -1,0 +1,154 @@
+/*  ------------------------ DARK/LIGHT ---------------------------- */
+
+.dark {
+  background-color: #0e0e10;
+  color: #ecf0f1;
+  transition: all 0.5s ease;
+}
+.dark .header {
+  transition: all 0.5s ease;
+}
+
+.dark .footer-link:hover {
+  color: #bb86fc;
+}
+
+.dark .social-links {
+  color: #bb86fc;
+}
+
+.dark .github:hover {
+  color: #ecf0f1;
+}
+
+.dark .facebook:hover {
+  color: #5576ba;
+}
+
+.dark .insta:hover {
+  color: #cd486b;
+}
+
+.dark .footer {
+  border-top: none;
+  background-image: linear-gradient(#0e0e10, #2f2f32);
+  /* border-top: 1px solid #18181b; */
+}
+
+/* -------------------- NAVIGATION ------------------------- */
+
+.navigation {
+  display: flex;
+  /* height: 7rem; */
+  transition: all 0.5s ease;
+  padding: 2rem 4rem 4rem 4rem;
+  height: 4rem;
+}
+
+.sun {
+  color: #feca57;
+}
+
+.moon {
+  color: #8395a7;
+}
+
+.icon-mode[name="sunny"] {
+  display: none;
+}
+
+.btn-light-dark-mode {
+  position: absolute;
+  top: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.icon-mode {
+  height: 3.6rem;
+  width: 3.6rem;
+}
+
+/*  --------------------- FOOTER --------------------------- */
+
+.footer {
+  padding: 10rem 0;
+  background-color: #f0f0f0;
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+}
+
+.footer-text-box {
+  display: grid;
+}
+
+.footer p {
+  font-size: 1.4rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.5s ease;
+}
+
+.footer-link:hover {
+  color: #3498db;
+}
+
+.footer-text {
+  margin-bottom: 3rem;
+}
+
+.copy {
+  margin-top: 5rem;
+  /* justify-self: start; */
+}
+
+.social-links {
+  display: flex;
+  gap: 3.4rem;
+  align-items: center;
+  /* justify-content: center; */
+  list-style: none;
+}
+
+.social-links-footer {
+  justify-content: end;
+  align-items: end;
+  height: 100%;
+}
+
+ul li a {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.github:hover {
+  color: #000;
+}
+
+.youtube:hover {
+  color: #ff0000;
+}
+
+.facebook:hover {
+  color: #4267b2;
+}
+
+.insta:hover {
+  color: #c13584;
+}
+
+.social-link {
+  color: inherit;
+  height: inherit;
+}
+
+.ion-icon {
+  height: 2.6rem;
+  width: 2.6rem;
+  pointer-events: visible;
+}
