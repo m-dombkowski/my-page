@@ -39,10 +39,9 @@
 
 .navigation {
   display: flex;
-  /* height: 7rem; */
+
   transition: all 0.5s ease;
   padding: 2rem 4rem 4rem 4rem;
-  height: 4rem;
 }
 
 .sun {
