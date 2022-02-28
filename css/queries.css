@@ -179,10 +179,9 @@
   .navigation {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.5);
-    transform: translateX(100%);
+    /* transform: translateX(100%); */
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-
     top: 0;
     right: 0;
     opacity: 0;
@@ -223,7 +222,7 @@
     justify-content: space-between; */
 
     visibility: visible;
-    transform: translateX(0%);
+    /* transform: translateX(0%); */
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
