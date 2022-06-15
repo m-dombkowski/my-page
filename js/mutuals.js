@@ -22,6 +22,21 @@ const mode = function () {
   }
 };
 
+const headerEL = document.querySelector(".header");
+
+const navigation = document.querySelector(".navigation");
+let navigationTop = navigation.offsetTop;
+
+const stickyNav = function () {
+  if (window.scrollY > navigationTop) {
+    headerEL.classList.add("sticky");
+  } else {
+    headerEL.classList.remove("sticky");
+  }
+};
+
+window.addEventListener("scroll", stickyNav);
+
 btnMode.addEventListener("click", mode);
 
 mode();

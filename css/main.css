@@ -224,6 +224,10 @@ ul li a {
   color: #000;
 }
 
+.linkedin:hover {
+  color: #0072b1;
+}
+
 .youtube:hover {
   color: #ff0000;
 }
