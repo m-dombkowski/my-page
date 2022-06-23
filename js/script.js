@@ -29,6 +29,8 @@ allLinks.forEach(function (link) {
 
 const mobileNav = document.querySelector(".btn-mobile-nav");
 
+// const headerEL = document.querySelector(".header");
+
 mobileNav.addEventListener("click", function () {
   headerEL.classList.toggle("nav-open");
 });
